@@ -43,7 +43,7 @@ public class TodoList {
             }
         }
     }
-
+//
     private static void checkingTheListForStatusUncompleted() {
         for (int i = 0; i < LIST_ALL_TASK.size(); i++) {
             if (LIST_ALL_TASK.get(i).getState().equals("uncompleted")) {
